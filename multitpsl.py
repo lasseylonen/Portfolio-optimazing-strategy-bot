@@ -8,8 +8,6 @@ from dotenv import load_dotenv
 
 # Lataa .env-tiedosto
 load_dotenv()
-#BINANCE_API_KEY=9ncYsHwdg54LYwuqT8yiqOpInoaOPAMjQympK4cDoQJbXeHAJPEm0trEf1Q3qPBZ
-#BINANCE_API_SECRET=DHcTfFTKyXspcDFUfneJcsEPamN15CUAnwL3xcMQqjg0dfdLmtIUQV6fgUIi4TPW
 API_KEY = os.getenv("BINANCE_API_KEY")
 API_SECRET = os.getenv("BINANCE_API_SECRET")
 
@@ -361,3 +359,4 @@ def main():
 
 if __name__=="__main__":
     main()
+
